@@ -1,0 +1,22 @@
+{
+  "name": "smart-home-project",
+  "version": "1.0.0",
+  "description": "Firebase functions for smart home project",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "firebase emulators:start",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.0.0",
+    "firebase-functions": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "license": "ISC"
+}
